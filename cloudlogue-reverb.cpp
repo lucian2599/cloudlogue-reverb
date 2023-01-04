@@ -22,8 +22,8 @@ static float cutoff = 1.f;
 
 /* Defines put here, until finding a way to make separate make targets 
    for each variant: original (no pan), pan, pan_hard. */
-#define CLOUDLOGUE_REVERB_PAN
-#define CLOUDLOGUE_REVERB_PAN_HARD
+#define CLOUDLOGUE_REVERB_PAN       /* option to build "cloudP" reverb */
+#define CLOUDLOGUE_REVERB_PAN_HARD  /* option to build "cloudPH" reverb */
 
 #if defined CLOUDLOGUE_REVERB_PAN_HARD
 static float cnt_auto_pan_hard = 0.f;
