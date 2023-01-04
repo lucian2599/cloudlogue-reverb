@@ -1,5 +1,5 @@
 # Info
-In addition to original cloudlogue-reverb, the pan setting of stereo source signal can be used as send level.
+In addition to original cloudlogue-reverb, the pan/balance setting of stereo source signal can be used as send level.
 Disadvantage is that pan left-right is (almost) not possible anymore, the raw audio will be either mono-centered (pan = L64), either sent to effect.
 This effect is useful for external audio input.
 Playing internal synth sound will therefore be fixed to 50% dry/wet ratio, since internal synth has centered pan.
