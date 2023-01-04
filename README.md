@@ -5,7 +5,13 @@ This effect is useful for external audio input.
 Playing internal synth sound will therefore be fixed to 50% dry/wet ratio, since internal synth has centered pan.
 So in addition to "clouds" plugin, there are 2 more flavours:
 - cloudsP  : as described above (P from pan)
-- cloudsPH : similar to cloudsP, but with attempt to allow hard pan left-right (PH from pan hard left/right). For e.g. at full level, if pan level is at boundaries (approx L64-L61 or R61-R64), the audio will be hard panned left, without pass through reverb. It works only if audio input snippets (drums) are panned left/right alternatively.
+- cloudsPH : similar to cloudsP, but with attempt to allow hard pan left-right (PH from pan hard left/right). For e.g. at full level, if pan level is at boundaries (approx L64-L61 or R60-R63), the audio will be hard panned left, without pass through reverb. It works only if audio input snippets (drums) are panned left/right alternatively.
+
+Conventions (from Korg Volca Sample): 
+L64 = Left64 = -64 in DAW = midi pan 0 = hard pan left
+L01 = close to center, slightly left
+R01 = close to center, slightly right
+R63 = Right63 = 63 in DAW = midi pan 127 = hard pan right
 
 # Installation
 
