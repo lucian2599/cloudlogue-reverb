@@ -13,7 +13,7 @@ L01 = close to center, slightly left
 R01 = close to center, slightly right
 R63 = Right63 = 63 in DAW = midi pan 127 = hard pan right
 
-See example in youtube video: https://www.youtube.com/embed/aMMH75kNn2E"
+See example in youtube video: https://www.youtube.com/embed/aMMH75kNn2E
 
 # Installation
 
